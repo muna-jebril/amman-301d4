@@ -37,7 +37,8 @@ function displayPics(){
   }
 //console.log(rando);
   // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the variable declaration from `to `let`.
-  // PUT YOUR RESPONSE IN THIS COMMENT
+  // PUT YOUR RESPONSE IN THIS COMMENT  var when we defind it it will be global varibale but if we use let it will be accessed just in it`s scope 
+  
   console.log(viewed);
 
   for (let i = 0; i < 3; i++){
